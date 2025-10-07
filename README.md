@@ -14,7 +14,7 @@ A modern web application built with Blazor to help homebrewers track, manage, an
 ## 🛠️ Tech Stack
 
 - **Framework**: Blazor Web App (.NET 9)
-- **Database**: Entity Framework Core with SQL Server
+- **Database**: Entity Framework Core with PostgreSQL
 - **UI Components**: MudBlazor (Material Design)
 - **Authentication**: ASP.NET Core Identity
 
