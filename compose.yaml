@@ -1,0 +1,13 @@
+﻿services:
+  beerblazorapp.client:
+    image: beerblazorapp.client
+    build:
+      context: .
+      dockerfile: BeerBlazorApp/BeerBlazorApp.Client/Dockerfile
+
+  beerblazorapp:
+    image: beerblazorapp
+    build:
+      context: .
+      dockerfile: BeerBlazorApp/BeerBlazorApp/Dockerfile
+
